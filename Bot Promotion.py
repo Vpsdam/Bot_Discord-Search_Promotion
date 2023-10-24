@@ -7,7 +7,6 @@ from selenium.webdriver.common.keys import Keys
 import time
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
-import re
 
 Service = Service(ChromeDriverManager().install())
 navegador = webdriver.Chrome(service=Service)
